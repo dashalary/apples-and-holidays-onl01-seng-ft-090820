@@ -67,7 +67,7 @@ def all_holidays_with_bbq(holiday_hash)
 if holiday_hash.value?("BBQ")
   holiday_hash.value
 end
-
+end
 
 
 
