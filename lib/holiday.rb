@@ -64,8 +64,8 @@ end
 def all_holidays_with_bbq(holiday_hash)
   # return an array of holiday names (as symbols) where supply lists
   # include the string "BBQ"
-if holiday_hash[season][holiday_name].value?("BBQ")
-holiday_hash[season][holiday_name] << holiday_supplies
+if holiday_hash[:season][:holiday_name].value?("BBQ")
+holiday_hash[:season][:holiday_name] << holiday_supplies
 end
 return holiday_supplies
 end
